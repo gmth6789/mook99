@@ -1,29 +1,9 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        Nuxt
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+      <div class="flex flex-wrap diygw-col-0 items-stretch flex9-clz">
+					<div class="diygw-col-0 text3-clz">กิจกรรมพิเศษ</div>
+					<img src="/static/sd.png" class="image-size diygw-image diygw-col-0 image-clz" mode="heightFix" />
+				</div>
   </div>
 </template>
 
@@ -32,42 +12,24 @@ export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+.text3-clz {
+			padding-top: 5px;
+			border-bottom-left-radius: 3px;
+			overflow: hidden;
+			color: #ffffff;
+			padding-left: 12px;
+			font-size: 14px !important;
+			padding-bottom: 5px;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 8px;
+			background-image: linear-gradient(45deg, #f43f3b 1%, #ec008c 99%);
+			padding-right: 12px;
+		}
+		.image-clz {
+			margin-left: -6px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
 </style>
